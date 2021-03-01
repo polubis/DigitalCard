@@ -1,0 +1,36 @@
+{
+  "name": "digitalcard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polubis/DigitalCard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polubis/DigitalCard/issues"
+  },
+  "homepage": "https://github.com/polubis/DigitalCard#readme",
+  "dependencies": {
+    "gatsby": "^2.32.8",
+    "gatsby-plugin-mdx": "^1.10.1",
+    "gatsby-source-filesystem": "^2.11.1",
+    "node-sass": "^4.14.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "gatsby-plugin-scss-typescript": "^4.0.13"
+  }
+}
